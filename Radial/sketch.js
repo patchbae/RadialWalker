@@ -8,7 +8,7 @@ var r, g, b;
 let step = 5;
 
 function setup() {
-  for (var i=0; i < 11; i++){
+  for (var i=0; i < 9; i++){
     painters.push(new Walker());
   }
 	createCanvas(displayWidth, displayHeight);
